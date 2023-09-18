@@ -1,4 +1,4 @@
-import 'package:animation_starter_code/implicit_examples/animated_color_pallete.dart';
+import 'package:animation_starter_code/custom_painter_example/bouncing_ball_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimatedColorPalette(),
+      home: const BouncingBallAnimation(),
     );
   }
 }
